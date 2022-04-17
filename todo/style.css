@@ -1,0 +1,26 @@
+body {
+	display: flex;
+	height: 100%;
+	margin: 20px;
+	padding: 20px;
+}
+
+#leftDiv {
+	flex: 1;
+	height: 100%;
+	background: darkgrey;
+}
+
+#rightDiv {
+	flex: 1;
+	height: 100%;
+}
+
+.textbox {
+	height: 80vh;
+	width: 100%;
+}
+
+.list-item {
+	display: flex;
+}
